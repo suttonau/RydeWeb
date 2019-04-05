@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Ryde",
+  "name": "Rental and Used Car Search",
   "icons": [
     {
       "src": "favicon.ico",
