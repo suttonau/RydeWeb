@@ -1,0 +1,8 @@
+.search-container {
+	background-color: rgba(133, 12, 90, 0.2);
+	flex: 1;
+	width:auto;
+	height: auto;
+	padding: 1em;
+	border-radius: 0.5em;
+}
