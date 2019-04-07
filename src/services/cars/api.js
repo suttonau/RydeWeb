@@ -18,7 +18,7 @@ export class CarAPI {
    * @param [cls] {class} - The class to use to create objects.
    * */
   static create(cls) {
-    return new CareerCategoryAPI(cls)
+    return new CarAPI(cls)
   }
 
   /**

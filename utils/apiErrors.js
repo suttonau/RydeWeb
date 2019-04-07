@@ -1,4 +1,4 @@
-import { Alert } from 'react-native'
+import { Alert } from 'react'
 
 /**
  * This function accepts any type of value and reduces it to a single
