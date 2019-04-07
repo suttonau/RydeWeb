@@ -1,8 +1,37 @@
 .search-container {
 	background-color: rgba(133, 12, 90, 0.2);
 	flex: 1;
-	width:auto;
+	width: auto;
 	height: auto;
 	padding: 1em;
 	border-radius: 0.5em;
 }
+
+.form {
+	margin-top: 1em;
+}
+
+.tab-container {
+	background-color: rgba(133, 12, 90, 0.2);
+}
+
+/* 
+
+.tab-container .button-container {
+	height: 15%;
+}
+
+.tab-container .button-container button {
+	width: 25%;
+	height: 100%;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 10px;
+	background-color: rgba(133, 12, 90, 0.2);
+}
+
+.tab-container .button-container button:hover {
+	background-color: #d7d4d4;
+} */
