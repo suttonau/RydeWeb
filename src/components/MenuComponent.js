@@ -22,7 +22,7 @@ export default class MenuComponent extends Component {
       <Menu inverted size="huge" stackable>
         <Menu.Item onClick={this.handleActiveItem}>[Logo] Ryde</Menu.Item>
 
-        <Menu.Menu position="right" stackable>
+        <Menu.Menu position="right">
           <Menu.Item
             name={MENU_ITEMS.FIND}
             onClick={this.handleActiveItem}

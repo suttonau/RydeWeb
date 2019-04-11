@@ -14,15 +14,14 @@ let craigslist = require('node-craigslist')
 // }
 
 export default class CraigslistAPI {
-  constructor(clientOptions = { city: 'seattle' }) {
+  constructor(clientOptions = null) {
     this.client = new craigslist.Client(clientOptions)
   }
 
-  getListings(options) {
+  getListings(options= {city: 'washingtondc', category: 'cta'}) {
     this.client
-      .list()
+      .list(options)
       .then((listings) => {
-        debugger
         listings.forEach((listing) => console.log(listing))
       })
       .catch((err) => console.log)
