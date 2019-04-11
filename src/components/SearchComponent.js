@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Form, Button, Grid, Input } from 'semantic-ui-react'
 import './styles/Search.css'
+import ResultsComponent from './ResultsComponent';
 
 const CURRENT_YEAR = new Date().getFullYear()
 
@@ -32,7 +33,7 @@ export default class SearchComponent extends Component {
       <div>
         <div className="search-container">
           <Form>
-          <Grid stackable columns='equal'>
+          <Grid columns='equal'>
             <Grid.Row>
               {/* <Button.Group fluid widths="3" color="blue"> */}
               <Grid.Column>
@@ -75,6 +76,7 @@ export default class SearchComponent extends Component {
           </Grid>
           </Form>
         </div>
+        <ResultsComponent/>
       </div>
     )
   }
